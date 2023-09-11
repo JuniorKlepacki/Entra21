@@ -20,13 +20,13 @@ public class Exercicio9 {
 
 		System.out.println("Digite os valores do primeiro vetor:");
 		for (int i = 0; i < tamanho; i++) {
-			System.out.print("Digite o valor " + (i + 1) + ": ");
+			System.out.print("Digite o valor :");
 			vetor1[i] = scanner.nextInt();
 		}
 
 		System.out.println("Digite os valores do segundo vetor:");
 		for (int i = 0; i < tamanho; i++) {
-			System.out.print("Digite o valor " + (i + 1) + ": ");
+			System.out.print("Digite o valor: ");
 			vetor2[i] = scanner.nextInt();
 		}
 
@@ -39,12 +39,12 @@ public class Exercicio9 {
 			System.out.print(valor + " ");
 		}
 
-		System.out.println("\nVetor 2:");
+		System.out.println("Vetor 2:");
 		for (int valor : vetor2) {
 			System.out.print(valor + " ");
 		}
 
-		System.out.println("\nVetor 3 (Soma dos Vetores 1 e 2):");
+		System.out.println("Vetor 3 (Soma dos Vetores 1 e 2):");
 		for (int valor : vetor3) {
 			System.out.print(valor + " ");
 		}
