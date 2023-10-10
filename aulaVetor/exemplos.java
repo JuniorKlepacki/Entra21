@@ -1,4 +1,4 @@
-package aulaVetor;
+ package aulaVetor;
 
 import java.util.Scanner;
 

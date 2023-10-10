@@ -20,13 +20,13 @@ public class Exercicio9 {
 
 		System.out.println("Digite os valores do primeiro vetor:");
 		for (int i = 0; i < tamanho; i++) {
-			System.out.print("Digite o valor :");
+			System.out.print("Digite o valor: ");
 			vetor1[i] = scanner.nextInt();
 		}
 
 		System.out.println("Digite os valores do segundo vetor:");
 		for (int i = 0; i < tamanho; i++) {
-			System.out.print("Digite o valor: ");
+			System.out.print("Digite o valor : ");
 			vetor2[i] = scanner.nextInt();
 		}
 
